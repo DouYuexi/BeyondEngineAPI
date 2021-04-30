@@ -1,9 +1,14 @@
-#include ""
+#include "GameUtility/BPlayer.h"
 
-class BApplication{
+class BApplication {
 
 private:
-  BWorldManager WorldManager;
+  //BWorldManager WorldManager;
+  BPlayer player;
 public:
   
-}
+  BApplication();
+  void Init(int argc,char** argv);
+  void Test();
+
+};
